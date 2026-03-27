@@ -6,7 +6,7 @@ public class carro extends veiculo {
 
 	public carro(String marca, String modelo, int ano, int quantidadedeportas) {
 		super(marca, modelo, ano);
-		//this.quantidadedeportas = quantidadedeportas;	
+		this.quantidadedeportas = quantidadedeportas;	
 	}
 
 	public int getQuantidadedeportas() {
